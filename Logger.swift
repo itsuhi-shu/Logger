@@ -4,6 +4,7 @@ import os
 func message<T>(_ message: T,
                 level: Logger.Level = Logger.level,
                 file: String = #file, function: String = #function, line: Int = #line) -> String? {
+    guard Logger.Level != .release else { return nil }
     switch level {
     case .verbose:
         let fileName = (file as NSString).lastPathComponent
