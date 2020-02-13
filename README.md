@@ -70,7 +70,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ```
 output
 ```
-2020-02-13 16:15:34.269027+0900 RegiQ[5291:1333819] 
+2020-02-13 16:15:34.269027+0900 ***[5291:1333819] 
 [file:AppDelegate.swift]:[line:18]
 [thread:<NSThread: 0x282e26f00>{number = 1, name = main}]
 App did Launch.
